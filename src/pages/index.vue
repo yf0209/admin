@@ -10,9 +10,9 @@
   </div>
 </template>
 <script>
-import vHeader from '../common/header'
-import vLeft from '../common/left'
-import vRight from '../common/right'
+import vHeader from '../components/header'
+import vLeft from '../components/left'
+import vRight from '../components/right'
 export default {
   props: [],
   components: {
@@ -38,16 +38,18 @@ export default {
 }
 .index .header{
   width: 100vw;
-  height: 100px;
-  background: red;
+  height: 50px;
+  background: #202050;
+  color: #fff;
 }
 .main{
   display: flex;
   flex: 1;
 }
 .main .left{
-  background: #ccc;
+  background: #30333b;
   width: 150px;
+ 
 }
 .main .right{
   flex: 1;

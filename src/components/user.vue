@@ -1,6 +1,6 @@
 <template>
 <div>
-    left
+    user
 </div>
 </template>
 <script>

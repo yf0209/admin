@@ -57,7 +57,7 @@ export default {
   methods: {
     login() {
       //登录验证
-      this.$axios({
+      this.$http({
         url: API.login,
         method: "post",
         data: this.user
